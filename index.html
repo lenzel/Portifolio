@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devicewidth,initial-scale=1.0">
+
+    <title>PROJETOS</title>
+
+    <!--FONTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&amp;display=swap" rel="stylesheet">
+
+    <style>
+      textarea {
+
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      p {
+        font-family: "Rajdhani", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 20px;
+      }
+
+      h1 {
+        font-family: "Shrikhand", serif;
+        font-weight: 80000;
+        font-size: 53px;
+        font-style: normal;
+        color: #850707;
+        text-shadow: #5397b6 3px 3px 0;
+        text-align: center;
+      }
+
+      h2 {
+        font-family: "Shrikhand", serif;
+        font-weight: 600;
+        font-size: 30px;
+        font-style: normal;
+        color: #850707;
+        text-shadow: #5397b6 3px 3px 0;
+        text-align: center;
+      }
+
+      h3 {
+        font-family: "Shrikhand", serif;
+        font-weight: 600;
+        font-size: 30px;
+        font-style: normal;
+        color: #850707;
+        text-align: center;
+      }
+
+      .container {
+        display: grid;
+        justify-items: ;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 0fr;
+        column-gap: 10px;
+      }
+
+      input {
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .imagem {
+        width: 100%;
+        max-width: 400px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 8px 8px #5397b6;
+      }
+
+      .c2 {
+        width: 78%;
+        max-width: 550px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .c1 {
+        width: 78%;
+        max-width: 550px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .bt {
+        border: solid 1px #365E32;
+        border-radius: 70px;
+        color: #850707;
+        background-color: #B5C18E;
+        transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+        font-family: "Shrikhand", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        text-align: center;
+        font-size: 20px;
+        align-items: center;
+        box-shadow: #5397b6 8px 8px 0;
+      }
+
+      .bt:hover {
+        background-color: #365E32;
+        color: #F7DCB9;
+        transform: scale(1.1) font-family: "Shrikhand", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        text-align: center;
+        font-size: 20px;
+        box-shadow: #5397b6 8px 8px 0;
+      }
+
+      .botaocalc {
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+
+    <script type="text/javascript" src="./index.js" defer=""></script>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+
+  <body style="background-color:#F7DCB9;">
+
+    <!--FOTO DE PERFIL-->
+    <img src="raccoon.jpg" alt="Foto de perfil" class="imagem">
+
+    <!--CABEÇALHO-->
+    <p><b>NOME:</b> Brönstrup</p>
+    <p><b>CIDADE:</b> Lajeado - RS</p>
+    <p><b>CONTATO:</b> jixudussu@gmail.com</p>
+
+    <h1>MEUS PROJETOS:</h1>
+
+
+
+    <div class="container">
+      <div class="c1">
+
+        <!--PROJETO 1-->
+        <h2>1-</h2>
+        <h3>CALCULADORA DE IMC:</h3>
+
+        <p> Por favor digite sua altura em metros:</p>
+        <input type="text" id="recebe altura" placeholder=" exemplo:1.70">
+
+        <p> Agora digite seu peso em kilogramas:</p>
+        <input type="text" id="recebe peso" placeholder="exemplo:80">
+
+        <br><br>
+
+        <button id="calcular" class="bt">CALCULE AQUI!</button>
+
+        <br><br>
+
+        <!--PROJETO 3-->
+        <h2>3-</h2>
+        <h3>LOGIN:</h3>
+
+        <p> Digite seu usuário:</p>
+        <input type="text" id="relog">
+
+        <p> Agora digite a senha: </p>
+        <input type="password" id="resenha">
+
+        <br><br>
+
+        <button id="validar" class="bt">VALIDAR</button>
+
+
+      </div>
+
+      <div class="c2">
+
+        <!--PROJETO 2-->
+        <h2>2-</h2>
+        <h3>CALCULADORA:</h3>
+
+        <p>Para calcular, digite os números que queira operar, escolha qual o tipo da operação, e por fim clique em calcular.</p>
+        <p>Primeiro número:</p>
+        <input type="text" id="n1" placeholder=" exemplo:15">
+
+        <p>Segundo número:</p>
+        <input type="text" id="n2" placeholder="exemplo:10">
+        <br><br>
+        <div class="botaocalc">
+          <button id="+" class="bt">+</button>
+          <button id="-" class="bt">-</button>
+          <button id="/" class="bt">/</button>
+          <button id="*" class="bt">*</button>
+        </div>
+        <br><br>
+
+        <!--PROJETO 4-->
+        <h2>4-</h2>
+        <h3>DIGITAÇÃO DE TEXTO:</h3>
+
+        <p>MENSAGEM:</p>
+        <textarea id="msg" rows="4" cols="50">     </textarea>
+
+        <p id="qnt">Quantidade de caracteres:</p>
+
+        <button onclick="limpar()" class="bt">LIMPAR</button>
+
+      </div>
+    </div>
+
+
+    <script>
+      //CALCULADORA DE IMC//
+      document.getElementById('calcular').addEventListener('click', function() {
+        var altura = document.getElementById('recebe altura').value;
+        var peso = document.getElementById('recebe peso').value;
+        let imc = peso / (altura * altura)
+        alert("Seu IMC é igual a " + imc);
+      });
+
+      //CALCULADORA SIMPLES//
+      document.getElementById("+").onclick = function() {
+        let num1 = parseFloat(document.getElementById("n1").value);
+        let num2 = parseFloat(document.getElementById("n2").value);
+        let resultado = num1 + num2;
+        alert("O resultado é: " + resultado);
+      }
+
+      document.getElementById("-").onclick = function() {
+        let num1 = parseFloat(document.getElementById("n1").value);
+        let num2 = parseFloat(document.getElementById("n2").value);
+        let resultado = num1 - num2;
+        alert("O resultado é: " + resultado);
+      }
+
+      document.getElementById("/").onclick = function() {
+        let num1 = parseFloat(document.getElementById("n1").value);
+        let num2 = parseFloat(document.getElementById("n1").value);
+        let resultado = num1 / num2;
+        alert("O resultado é: " + resultado);
+      }
+
+      document.getElementById("*").onclick = function() {
+        let num1 = parseFloat(document.getElementById("n1").value);
+        let num2 = parseFloat(document.getElementById("n1").value);
+        let resultado = num1 * num2;
+        alert("O resultado é: " + resultado);
+      }
+
+      //LOGIN//
+      let botaoregister = document.getElementById('validar')
+
+      botaoregister.onclick = function() {
+        let user = document.getElementById("relog");
+        let senha = document.getElementById("resenha")
+
+        if (user.value == 'admin' && senha.value == 'segredo') {
+          alert("ACESSO LIBERADO!")
+        } else {
+          alert("ACESSO NEGADO!")
+        }
+      }
+
+      //DIGITAÇÃO//
+      let qtde = document.getElementById('qnt');
+      let inputElement = document.getElementById('msg');
+
+      inputElement.addEventListener('keyup', function(event) {
+        qtde.innerHTML = 'Quantidade: ' + inputElement.value.length
+      });
+
+      function limpar() {
+        inputElement.value = ''
+        qtde.innerHTML = 'Quantidade: '
+      }
+    </script>
+
+  </body>
+
+</html>
